@@ -24,16 +24,14 @@ public class q2 {
 	             System.out.println("Invalid bmi. Must be greater than 18.5");
 	             scanner.close();
 	             return;
-			 
-	         } else if (bmi >= 18.5 && bmi <= 24.9) {
-	        	 bmiCategory = "Normal";
-	         } else if (bmi >= 25 && bmi <= 29.9) {
-	        	 bmiCategory = "Overweight";
-	         } else if (bmi >= 30 && bmi <= 34.9) {
-	        	 bmiCategory = "Obese";
-	         } else {
-	             bmiCategory = "Severely obese";
-	         }
+		 	 
+	         } 
+		 else if (bmi >= 18.5 && bmi <= 24.9) { bmiCategory = "Normal"; }
+		 else if (bmi >= 25 && bmi <= 29.9) { bmiCategory = "Overweight"; }	 
+		 else if (bmi >= 30 && bmi <= 34.9) {bmiCategory = "Obese"; }	 
+		 else {
+		 	bmiCategory = "Severely obese";
+		 }
 	
 	         // Output
 	         System.out.println("BMI info: " + bmiCategory);
