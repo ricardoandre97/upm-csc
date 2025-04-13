@@ -12,8 +12,8 @@ public class q3 {
 		 
 		 double gratuity = Float.parseFloat(input.split(" ")[1]) / 10;
 		 double total = gratuity + Float.parseFloat(input.split(" ")[0]);
-         System.out.println("The gratuity is $" + String.format("%.2f", gratuity) + " and total is $" +  String.format("%.2f",total));
-         scanner.close();
+	         System.out.println("The gratuity is $" + String.format("%.2f", gratuity) + " and total is $" +  String.format("%.2f",total));
+	         scanner.close();
 		 
 	 }
 }
